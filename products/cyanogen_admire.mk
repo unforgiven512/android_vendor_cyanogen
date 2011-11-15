@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for tass
-$(call inherit-product, device/samsung/tass/device_admire.mk)
+$(call inherit-product, device/samsung/admire/device_admire.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
